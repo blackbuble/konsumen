@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#2196f3">
+    <title>Framework7 Material</title>
+    <link rel="stylesheet" href="css/framework7.material.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/kitchen-sink.css">
+    <link rel="stylesheet" href="css/my-app.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="icon" href="img/icon.png">
+  </head>
+  <body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-cover">
+      <div class="view navbar-fixed">
+        <div class="pages">
+          <div data-page="panel-left" class="page">
+            <div class="navbar navbar-header">
+              <div class="navbar-inner">
+					<div class="item-content profile-img">
+					<div class="item-media"><img src="http://megadrupal.com/sites/all/themes/mega_theme/images/default-user.png" width="80"/></div>
+					<div class="item-inner">
+                          <div class="item-title user-title user-register"></div>
+                          <div class="item-title user-title user-unregister">Username</div>
+                        </div>
+					</div>
+              </div>
+            </div>
+            <div class="page-content left-content">
+			  <div class="menu-register">
+              <div class="list-block list-content">
+                <ul class="menu-left">
+                  <li><a href="forms.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                        <div class="item-title"><i class="fa fa-history"></i> Riwayat</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="list-view.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-star"></i> Favorit</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="media-lists.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-calendar-check-o"></i> Dijadwalkan</div>
+                        </div>
+                      </div></a></li>
+				  <li><a href="media-lists.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-question-circle"></i> Bantuan</div>
+                        </div>
+                      </div></a></li> 
+				  <li><a href="#" class="item-link close-panel rate">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-plus-square"></i> Nilai Aplikasi Kami</div>
+                        </div>
+                      </div></a></li>
+				  <li><a href="#share" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-bullhorn"></i> Ajak teman-teman</div>
+                        </div>
+                      </div></a></li>
+				  <li><a href="#" class="item-link close-panel logout">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-unlock"></i> Logout</div>
+                        </div>
+                      </div></a></li>
+                  
+                </ul>
+              </div>
+            </div> 
+			<div class="menu-unregister">
+              <div class="list-block list-content">
+                <ul class="menu-left">
+                  <li><a href="media-lists.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-question-circle"></i> Bantuan</div>
+                        </div>
+                      </div></a></li> 
+				  <li><a href="#" class="item-link close-panel rate">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-plus-square"></i> Nilai Aplikasi Kami</div>
+                        </div>
+                      </div></a></li>
+				  <li><a href="#share" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-bullhorn"></i> Ajak teman-teman</div>
+                        </div>
+                      </div></a></li>
+				  <li><a href="#login-screen-embedded" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title"><i class="fa fa-lock"></i> Login</div>
+                        </div>
+                      </div></a></li>
+                  
+                </ul>
+              </div>
+            </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="views">
+      <div class="view view-main">
+        <div class="pages navbar-fixed">
+          <div data-page="index" class="page">
+            <div class="navbar ">
+              <div class="navbar-inner">
+                <div class="left"><a href="#" class="open-panel link icon-only"><i class="fa fa-navicon"></i></a></div>
+                <div class="center title">AC CALLS</div>
+                <div class="right"><a href="#promo" class="link icon-only"><p class="promo">Promo</p> <i class="fa fa-gift"></i></a></div>
+              </div>
+            </div>
+			
+			<div class="toolbar toolbar-bottom">
+				<div class="toolbar-inner button color-teal">
+					
+					<a href="#" class="link pesan">Pesan Sekarang</a>
+				</div>
+			</div>
+            <div class="page-content">
+			
+             <!--Form goes here-->
+			 
+				<div class="list-block inputs-list card">
+				  <ul>
+					<li>
+					<a href="#" class="item-link smart-select" data-back-on-select="true">
+							<select name="jasa" id="jasa">
+							  <option value="cuci" selected="selected">Cuci</option>
+							  <option value="servis">Servis</option>
+							  <option value="pasang">Pasang</option>
+							</select>
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-wrench material-icon"></i></div>
+						<div class="item-inner item-border"> 
+						  <div class="item-title label">Jasa</div>
+						</div>
+					  </div>
+					</a>  
+					</li>
+					
+					<li>
+					  <div class="row no-gutter">
+					  <div class="col-60">
+					  <a href="#" class="item-link smart-select" data-back-on-select="true">
+							<select name="jenis ac" id="jenis">
+							  <option value="split1" selected="selected">Split 0.5 - 1 PK</option>
+							  <option value="split2">Split 1.5 - 2 PK</option>
+							  <option value="windows">Windows</option>
+							</select>
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-plug material-icon"></i></div>
+						<div class="item-inner"> 
+						  <div class="item-title label">Jenis AC</div>
+						 
+						</div>
+					  </div>
+					  </a>
+					  </div>  
+					  <div class="col-40">
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-calculator material-icon"></i></div>
+						<div class="item-inner"> 
+						  <div class="item-title label">Jumlah AC</div>
+						  <div class="item-input">
+							<input type="text" placeholder="Jumlah AC" id="unit"/>
+						  </div>
+						</div>
+					  </div>
+					  </div>
+					  <div class="item-border-left"></div>
+					  </div>
+					</li>
+					<li>
+					<div class="row no-gutter">
+					  <div class="col-60">
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-calendar material-icon"></i></div>
+						<div class="item-inner"> 
+						  <div class="item-title label">Tanggal</div>
+						  <div class="item-input">
+							<input type="text" placeholder="Tanggal"  id="tanggal"/>
+						  </div>
+						</div>
+					  </div>
+					  </div> 
+					  <div class="col-40">
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-clock-o material-icon"></i></div>
+						<div class="item-inner"> 
+						  <div class="item-title label">Waktu</div>
+						  <div class="item-input">
+							<input type="text" placeholder="Waktu" id="waktu"/>
+						  </div>
+						</div>
+					  </div>
+					  </div>
+					  <div class="item-border-left"></div>
+					</div>  
+					</li>
+					
+					<li class="align-top">
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-map-marker material-icon"></i></div>
+						<div class="item-inner item-border"> 
+						  <div class="item-title label">Alamat</div>
+						  <div class="item-input">
+							<textarea placeholder="Alamat" id="alamat"></textarea>
+						  </div>
+						</div>
+					  </div>
+					</li>
+					<li>
+					
+					<div class="row no-gutter">
+					  <div class="col-50">
+					   <a href="#" class="item-link smart-select" data-back-on-select="true">
+							<select name="layanan" id="layanan">
+							   	<option value="pribadi" selected="selected" data-option-icon="fa fa-user material-icon">Pribadi</option>
+								<option value="instansi" data-option-icon="fa fa-university material-icon">Instansi</option>
+							</select>
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-users material-icon"></i></div>
+						<div class="item-inner"> 
+						  <div class="item-title label">Layanan</div>
+						  
+						 </div>
+					  </div>
+					  </a>
+					  </div>
+					  <div class="col-50">
+					  <a href="#" class="item-link smart-select">
+							<select name="pembayaran" id="pembayaran">
+							  <option value="tunai" selected="selected" data-option-icon="fa fa-money material-icon">Tunai</option>
+							  <!--<option value="windows">Windows</option>-->
+							</select>
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-credit-card material-icon"></i></div>
+						<div class="item-inner"> 
+						  <div class="item-title label">Pembayaran</div>
+						  
+						</div>
+					  </div>
+					  </a>
+					  </div>
+					<div class="item-border-left"></div>
+					</div>  
+					</li>
+					
+					<li>
+					  <div class="item-content">
+						<div class="item-media"><i class="fa fa-tags material-icon"></i></div>
+						<div class="item-inner"> 
+						  <div class="item-title label">Kode Promosi</div>
+						  <div class="item-input">
+							<input type="text" placeholder="Kode Promosi" />
+						  </div>
+						</div>
+					  </div>
+					</li>
+					<li>
+					
+				  </ul>
+				</div>
+				
+				<div class="content-block-title">
+				  <div class="row no-gutter">
+				     <div class="col-30">Estimasi Biaya:</div> 
+					 <div class="col-70"><h3 class="biaya"></h3></div>
+			
+					 <!--  <div class="item-content">
+						<div class="item-inner"> 
+						  <div class="item-title ">Estimasi biaya:</div>
+						 </div>
+					  </div> -->
+				  </div>	  
+				</div>
+				<!-- <div class="content-block">	
+					
+						<!-- <div class="row">
+						<div class="col-25"></div>
+						<div class="col-50"> -->
+						<!-- <div class="item-content">
+						<div class="item-inner">
+						<a href="#" class="button button-fill color-teal">Pesan Sekarang</a>
+						</div>
+						</div> -->
+						<!-- </div>
+						<div class="col-25"></div>
+						</div> -->
+					
+				<!-- </div> --> 
+				<!--End of form-->
+			</div>
+          </div>
+		  
+		  <div class="page cached" data-page="share">
+			   <div class="navbar">
+				<div class="navbar-inner">
+				  <div class="left"><a href="#index" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+				  <div class="center">Ajak teman</div>
+				  <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+				</div>
+			    </div>	
+			    <div class="page-content">
+				<div class="content-block">
+				<p class="title-share">Bagikan pengalaman anda menggunakan aplikasi AC CALLS kepada teman-teman anda. </p>
+			  <p class="buttons-row">
+			  <a class="button button-big button-fill color-indigo " onclick="window.plugins.socialsharing.shareVia('facebook', 'Message via FB',null, null /* img */, 'www.accalls.co.id' /* url */, function() {console.log('share ok')}, function(errormsg){alert(errormsg)})"><i class="fa fa-facebook-f button-share"></i> Facebook</a>
+			  </p>
+			  <p class="buttons-row">
+			  <a class="button button-big button-fill color-blue" onclick="window.plugins.socialsharing.shareVia('twitter', 'Saya sudah mencoba jasa ac calls. Bagaimana dengan kamu ?',null, null /* img */, 'www.accalls.co.id' /* url */, function() {console.log('share ok')}, function(errormsg){alert(errormsg)})"><i class="fa fa-twitter button-share"></i> Twitter</a>
+			  </p>
+			  </div>
+				</div>
+      	 </div>
+		  
+		  <!--Promo page-->
+		  <div data-page="promo" class="page cached" >
+			  <div class="navbar">
+				<div class="navbar-inner">
+				  <div class="left"><a href="#index" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+				  <div class="center">Promo</div>
+				  <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+				</div>
+			  </div>
+			  <div class="page-content">
+				<div data-pagination=".swiper-pagination" data-paginationHide="true" class="swiper-container swiper-init ks-demo-slider">
+				  <div class="swiper-pagination"></div>
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><div class="card card-promo"><img src="img/promo1.jpg"/><div class="item-inner time-promo"><i class="fa fa-clock-o"></i> 23 Maret - 23 April 2016</div></div></div>
+					<div class="swiper-slide"><div class="card card-promo"><img src="img/promo2.jpg"/><div class="item-inner time-promo"><i class="fa fa-clock-o"></i> 23 Maret - 23 April 2016</div></div></div>
+					<div class="swiper-slide">
+						<div class="card card-promo">
+							<div class="coupon-promo">
+								  <div class="panel-heading" id="head">
+									<div class="panel-title" id="title">
+										<img src="http://i.imgur.com/IOL5F9T.png">
+										<span class="visible-xs">Automatic Transmission Service</span>
+									</div>
+								  </div>
+								  <div class="panel-body">
+									<img src="http://i.imgur.com/e07tg8R.png" class="coupon-img img-rounded">
+									<div class="col-md-9">
+										<ul class="items">
+											<li>Add up to 5 quarts of motor oil (per specification)</li>
+											<li>Complimentary multi-point inspection</li>
+											<li>Drain and refill trnasmission fluid</li>
+											<li>System inspection</li>
+										</ul>
+									</div>
+									<div class="panel-footer">
+										<div class="coupon-code">
+											Code: GBWO2
+											
+										</div>
+										<div class="exp">Expires: Sep 30, 2016</div>
+									</div>
+								
+								   </div>
+						</div>
+					</div>
+				
+					
+				  </div>
+				</div>
+			  </div>
+		   </div>
+	
+        </div>
+		  <!---End of promo-->
+		  
+		 
+		  
+		  <div data-page="sukses" class="page cached" id="sukses">
+			  <div class="navbar">
+				<div class="navbar-inner">
+				  <div class="left"><a href="#index" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+				  <div class="center">AC CALLS</div>
+				  
+				</div>
+			  </div>
+			  <div class="page-content">
+				<div class="content-block content-info">
+					<i class="fa fa-check-circle fa-4x icon-sukses"></i>
+					<p>Terima kasih telah melakukan pemesanan di AC CALLS</p>
+					<p>Berikut nomer order anda</p>
+					<h2>DEP1234</h2>
+					<p>Estimasi biaya</p>
+					<h2>Rp 50.000</h2>
+					<p>Saat ini kami tengah mencari teknisi yang tepat untuk anda</p>
+				</div>
+			  </div>
+	     </div>  
+		 
+		 <div data-page="login-screen-embedded" class="page cached login-screen-embedded">
+				<div class="page-content login-screen-content">
+				  <div class="login-screen-title"><img src="img/logo.png" class="img-login"></div>
+				  <form class="card card-login" id="formLogin">
+					<div class="list-block">
+					  <ul>
+						<li class="item-content">
+						  <div class="item-inner item-border">
+							<div class="item-title label">Email</div>
+							<div class="item-input">
+							  <input type="email" name="email" placeholder="Your email">
+							</div>
+						  </div>
+						</li>
+						<li class="item-content">
+						  <div class="item-inner item-border">
+							<div class="item-title label">Password</div>
+							<div class="item-input">
+							  <input type="password" name="password" placeholder="Your password">
+							</div>
+						  </div>
+						</li>
+					  </ul>
+					</div>
+					<div class="content-block">
+					  <a href="#" class="button button-big button-fill list-button color-red"><i class="fa fa-lock"></i> Masuk</a>
+					  <div class="list-block-label">
+						<p>Tidak punya akun ?</p>
+						<p class="buttons-row">
+						<a class="button button-big button-fill color-green close-login-screen" href="#register"><i class="fa fa-file-text button-share"></i> Daftar sekarang juga</a>
+					  </p>
+					
+					  <p class="buttons-row">
+						<a class="button button-big button-fill color-indigo " onclick=""><i class="fa fa-facebook-f button-share"></i> Daftar dengan Facebook</a>
+					  </p>
+					   <!--  <p><a href="#register" class="close-login-screen">Daftar</a></p>
+						<p><a href="#" class="close-login-screen">Close Login Screen</a></p> -->
+					  </div>
+					</div>
+				  </form>
+				</div>
+		</div>
+		 
+		 <div data-page="register" class="page cached" id="register">
+			   <div class="navbar">
+				<div class="navbar-inner">
+				  <div class="left"><a href="#index" class="back link icon-only"><i class="icon icon-back"></i></a></div>
+				  <div class="center">Daftar</div>
+				  
+				</div>
+			  </div>
+			  <div class="page-content login-screen-content">
+				
+					<!--  <div class="login-screen-title"><img src="img/logo.png" class="img-login"></div> -->
+					 <form class="card card-login card-login-area" id="formRegister">
+						<div class="list-block inputs-list">
+						  <ul>
+							<li>
+							  <div class="item-content">
+								<div class="item-media"><i class="fa fa-user material-icon"></i></div>
+								<div class="item-inner item-border"> 
+								  <div class="item-title floating-label">Nama</div>
+								  <div class="item-input">
+									<input type="text" placeholder="" name="name"/>
+								  </div>
+								</div>
+							  </div>
+							</li>
+							<li>
+							  <div class="item-content">
+								<div class="item-media"><i class="fa fa-envelope material-icon"></i></div>
+								<div class="item-inner item-border"> 
+								  <div class="item-title floating-label">E-mail</div>
+								  <div class="item-input">
+									<input type="email" placeholder="" name="email"/>
+								  </div>
+								</div>
+							  </div>
+							</li>
+							<li>
+							  <div class="item-content">
+								<div class="item-media"><i class="fa fa-phone material-icon"></i></div>
+								<div class="item-inner item-border"> 
+								  <div class="item-title floating-label">Phone</div>
+								  <div class="item-input">
+									<input type="tel" placeholder="" name="phone"/>
+								  </div>
+								</div>
+							  </div>
+							</li>
+							<li>
+							  <div class="item-content">
+								<div class="item-media"><i class="fa fa-lock material-icon"></i></div>
+								<div class="item-inner item-border"> 
+								  <div class="item-title floating-label">Password</div>
+								  <div class="item-input">
+									<input type="password" placeholder="" name="password" id="myPassword"/>
+								  </div>
+								</div>
+							  </div>
+							</li>
+							<li>
+							 <!--  <div class="item-content">	
+							  <label class="label-checkbox item-content">
+								<input type="checkbox" id="showPassword" class="showPassword"/>
+								<div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+								<div class="item-inner">
+								  <div class="item-title show-password">Perlihatkan Password</div>
+								</div>
+							  </label>
+							  </div> -->
+							</li>
+							<div class="content-block">	
+								
+								<div class="item-content">
+								<div class="item-inner">
+								<a href="#" class="button button-big button-fill color-teal button-register">Daftar</a>
+								</div>
+								</div>
+								</div>
+								
+					
+							</div> 
+							
+							
+						  </ul>
+						</div>
+					</form>	
+				</div>
+			  </div>
+	     </div>  
+		  
+	  </div>
+    </div></div>
+	
+	 <!--Login page-->
+		  
+	<div class="login-screen">
+    <div class="view">
+      <div class="page">
+        <!-- <div class="page-content login-screen-content">
+          <div class="login-screen-title"><img src="img/logo.png" class="img-login"></div>
+          <form class="card card-login" id="formLogin">
+            <div class="list-block">
+              <ul>
+                <li class="item-content">
+                  <div class="item-inner item-border">
+                    <div class="item-title label">Email</div>
+                    <div class="item-input">
+                      <input type="email" name="email" placeholder="Your email">
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner item-border">
+                    <div class="item-title label">Password</div>
+                    <div class="item-input">
+                      <input type="password" name="password" placeholder="Your password">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="content-block">
+              <a href="#" class="button button-big button-fill list-button color-red"><i class="fa fa-lock"></i> Masuk</a>
+              <div class="list-block-label">
+                <p>Tidak punya akun ?</p>
+                <p class="buttons-row">
+				<a class="button button-big button-fill color-green close-login-screen" href="#register"><i class="fa fa-file-text button-share"></i> Daftar sekarang juga</a>
+			  </p>
+			
+			  <p class="buttons-row">
+				<a class="button button-big button-fill color-indigo " onclick=""><i class="fa fa-facebook-f button-share"></i> Daftar dengan Facebook</a>
+			  </p>
+               <!--  <p><a href="#register" class="close-login-screen">Daftar</a></p>
+                <p><a href="#" class="close-login-screen">Close Login Screen</a></p> -->
+            <!--  </div>
+            </div>
+          </form>
+        </div> -->
+      </div>
+    </div>
+  </div>
+		  <!-- End of login-->	
+          
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
